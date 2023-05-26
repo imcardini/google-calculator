@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="cal__container">
+        <main class="cal__body">
+            <div class="input__div">
+                <input type="text" class="input" name="answer">
+            </div>
+            <form class="form" name="calculator">
+                <input type="button" value="A C" onclick="calculator.answer.value = ''" class="ac">
+                <input type="button" value="\" class="ac">
+                <input type="button" value="%" class="ac">
+                <input type="button" value="÷" class="sign">
+                <input type="button" value="7" onclick="calculator.answer.value += '7'" class="ac color">
+                <input type="button" value="8" class="ac color">
+                <input type="button" value="9" class="ac color">
+                <input type="button" value="×" class="sign">
+                <input type="button" value="4" class="ac color">
+                <input type="button" value="5" class="ac color">
+                <input type="button" value="6" class="ac color">
+                <input type="button" value="-" class="sign">
+                <input type="button" value="1" class="ac color">
+                <input type="button" value="2" class="ac color">
+                <input type="button" value="3" class="ac color">
+                <input type="button" value="+" class="sign">
+                <input type="button" value="0" class="ac color no0">
+                <input type="button" value="." class="ac color point">
+                <input type="button" value="=" class="sign orange">
+            </form>
+            <div class="line"></div>
+        </main>
+    </section>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cal__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal__body{
+    background-color: black;
+    width: 20%;
+    height: 90vh;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.input{
+    margin-top: 4rem;
+    margin-left: .8rem;
+    /* max-width: 200px; */
+    width: 90%;
+    height: 10rem;
+}
+.form{
+    /* margin-top: 4rem; */
+    margin-left: .8rem;
+}
+.ac{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #A0A0A0;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+}
+.color{
+    background-color: #313131;
+    margin-top: .6rem;
+    margin-left: .1rem;
+    width: 59px;
+    height: 59px;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+}
+.sign{
+    background-color: #f69906;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    margin-left: .1rem;
+    outline: none;
+    border: none;
+}
+.no0{
+    width: 119px;
+    height: 55px;
+    border-radius: .5rem;
+}
+.point{
+    margin-left: .4rem;
+}
+.line{
+    width: 50%;
+    height: .6%;
+    background-color: white;
+    border-radius: .5rem;
+    margin-top: 1.2rem;
+    margin-left: 4.3rem;
+}
